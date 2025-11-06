@@ -1,0 +1,2 @@
+[console_scripts]
+apriltag_navigator = apriltag_navigation.apriltag_navigator:main

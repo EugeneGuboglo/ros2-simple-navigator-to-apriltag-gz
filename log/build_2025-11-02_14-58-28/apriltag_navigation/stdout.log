@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/apriltag_navigation/apriltag_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/apriltag_navigation/apriltag_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/apriltag_navigation/apriltag_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/apriltag_navigation/apriltag_navigation.egg-info/requires.txt
+writing top-level names to ../../build/apriltag_navigation/apriltag_navigation.egg-info/top_level.txt
+reading manifest file '../../build/apriltag_navigation/apriltag_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/apriltag_navigation/apriltag_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying worlds/apriltag_world.sdf -> /home/victus/apriltag_ws/install/apriltag_navigation/share/apriltag_navigation/worlds
+running install_egg_info
+removing '/home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/apriltag_navigation/apriltag_navigation.egg-info to /home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing apriltag_navigator script to /home/victus/apriltag_ws/install/apriltag_navigation/lib/apriltag_navigation
+writing list of installed files to '/home/victus/apriltag_ws/build/apriltag_navigation/install.log'

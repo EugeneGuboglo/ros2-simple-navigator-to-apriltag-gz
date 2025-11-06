@@ -1,0 +1,27 @@
+[0.897s] Invoking command in '/home/victus/apriltag_ws/src/apriltag_navigation': AMENT_PREFIX_PATH=/home/victus/apriltag_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victus/apriltag_ws/install/apriltag_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/victus/apriltag_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/victus/apriltag_ws/build/apriltag_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages:/home/victus/apriltag_ws/install/apriltag_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/apriltag_navigation build --build-base /home/victus/apriltag_ws/build/apriltag_navigation/build install --record /home/victus/apriltag_ws/build/apriltag_navigation/install.log --single-version-externally-managed install_data
+[1.189s] running egg_info
+[1.213s] writing ../../build/apriltag_navigation/apriltag_navigation.egg-info/PKG-INFO
+[1.213s] writing dependency_links to ../../build/apriltag_navigation/apriltag_navigation.egg-info/dependency_links.txt
+[1.214s] writing entry points to ../../build/apriltag_navigation/apriltag_navigation.egg-info/entry_points.txt
+[1.214s] writing requirements to ../../build/apriltag_navigation/apriltag_navigation.egg-info/requires.txt
+[1.214s] writing top-level names to ../../build/apriltag_navigation/apriltag_navigation.egg-info/top_level.txt
+[1.262s] reading manifest file '../../build/apriltag_navigation/apriltag_navigation.egg-info/SOURCES.txt'
+[1.263s] writing manifest file '../../build/apriltag_navigation/apriltag_navigation.egg-info/SOURCES.txt'
+[1.263s] running build
+[1.263s] running build_py
+[1.264s] copying apriltag_navigation/__init__.py -> /home/victus/apriltag_ws/build/apriltag_navigation/build/lib/apriltag_navigation
+[1.264s] copying apriltag_navigation/apriltag_navigator.py -> /home/victus/apriltag_ws/build/apriltag_navigation/build/lib/apriltag_navigation
+[1.264s] running install
+[1.270s] running install_lib
+[1.293s] copying /home/victus/apriltag_ws/build/apriltag_navigation/build/lib/apriltag_navigation/__init__.py -> /home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation
+[1.293s] copying /home/victus/apriltag_ws/build/apriltag_navigation/build/lib/apriltag_navigation/apriltag_navigator.py -> /home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation
+[1.293s] byte-compiling /home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation/__init__.py to __init__.cpython-312.pyc
+[1.294s] byte-compiling /home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages/apriltag_navigation/apriltag_navigator.py to apriltag_navigator.cpython-312.pyc
+[1.295s] running install_data
+[1.295s] copying resource/apriltag_navigation -> /home/victus/apriltag_ws/install/apriltag_navigation/share/ament_index/resource_index/packages
+[1.295s] copying package.xml -> /home/victus/apriltag_ws/install/apriltag_navigation/share/apriltag_navigation
+[1.295s] creating /home/victus/apriltag_ws/install/apriltag_navigation/share/apriltag_navigation/launch
+[1.295s] copying launch/navigation.launch.py -> /home/victus/apriltag_ws/install/apriltag_navigation/share/apriltag_navigation/launch
+[1.296s] creating /home/victus/apriltag_ws/install/apriltag_navigation/share/apriltag_navigation/worlds
+[1.296s] error: can't copy 'worlds/apriltag_world.sdf': doesn't exist or not a regular file
+[1.321s] Invoked command in '/home/victus/apriltag_ws/src/apriltag_navigation' returned '1': AMENT_PREFIX_PATH=/home/victus/apriltag_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victus/apriltag_ws/install/apriltag_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/victus/apriltag_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/victus/apriltag_ws/build/apriltag_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victus/apriltag_ws/install/apriltag_navigation/lib/python3.12/site-packages:/home/victus/apriltag_ws/install/apriltag_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/apriltag_navigation build --build-base /home/victus/apriltag_ws/build/apriltag_navigation/build install --record /home/victus/apriltag_ws/build/apriltag_navigation/install.log --single-version-externally-managed install_data

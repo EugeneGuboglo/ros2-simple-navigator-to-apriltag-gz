@@ -1,0 +1,1 @@
+Invoking command in '/home/victus/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/victus/apriltag_ws/apriltag_ros2/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/victus/apriltag_ws/install/apriltag_msgs

@@ -1,0 +1,1219 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'apriltag_ros2']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['apriltag_ros2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76cdeaa7ee70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76cdeab9bc20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76cdeab9bc20>>)
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.111s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victus/apriltag_ws'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_navigation/worlds) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_msgs) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_ros2/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros2/apriltag_ros) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_ros2/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag16h5) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag25h9) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tag36h11) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle21h7) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCircle49h12) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagCustom48h12) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard41h12) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/apriltag-imgs/tagStandard52h13) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/materials/textures) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00000/thumbnails) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/materials/textures) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00001/thumbnails) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/materials/textures) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00002/thumbnails) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/materials/textures) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00003/thumbnails) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/materials/textures) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00004/thumbnails) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/materials/textures) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00005/thumbnails) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/materials/textures) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00006/thumbnails) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/materials/textures) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00007/thumbnails) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/materials/textures) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00008/thumbnails) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/materials/textures) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00009/thumbnails) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/materials/textures) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00010/thumbnails) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/materials/textures) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00011/thumbnails) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/materials/textures) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00012/thumbnails) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/materials/textures) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00013/thumbnails) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/materials/textures) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00014/thumbnails) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/materials/textures) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/models/Apriltag36_11_00015/thumbnails) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_apriltag/template/materials/textures) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.266s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'apriltag_ros2' in --packages-select
+[0.279s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag_msgs' in 'apriltag_ros2/apriltag_msgs'
+[0.279s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag_ros' in 'apriltag_ros2/apriltag_ros'
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 500 installed packages in /opt/ros/jazzy
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.347s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victus/apriltag_ws/install/local_setup.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victus/apriltag_ws/install/_local_setup_util_ps1.py'
+[0.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victus/apriltag_ws/install/setup.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victus/apriltag_ws/install/local_setup.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victus/apriltag_ws/install/_local_setup_util_sh.py'
+[0.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victus/apriltag_ws/install/setup.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victus/apriltag_ws/install/local_setup.bash'
+[0.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victus/apriltag_ws/install/setup.bash'
+[0.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victus/apriltag_ws/install/local_setup.zsh'
+[0.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victus/apriltag_ws/install/setup.zsh'

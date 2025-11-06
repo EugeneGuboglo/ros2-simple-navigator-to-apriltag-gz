@@ -1,0 +1,5 @@
+[0.012s] Invoking command in '/home/victus/apriltag_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/victus/apriltag_ws/build/apriltag_ros -- -j12 -l12
+[0.036s] [0mCMake Error: The source directory "/home/victus/apriltag_ws/apriltag_ros2/apriltag_ros" does not exist.
+[0.036s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.038s] gmake: *** [Makefile:284: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/victus/apriltag_ws/build/apriltag_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/victus/apriltag_ws/build/apriltag_ros -- -j12 -l12

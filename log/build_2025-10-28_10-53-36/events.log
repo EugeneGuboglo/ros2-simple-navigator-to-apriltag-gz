@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000152] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000278] (-) EventReactorShutdown: {}
